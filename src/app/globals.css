@@ -140,3 +140,9 @@ body {
 .container-custom {
   @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
 }
+@media only screen and (orientation: landscape) {
+  min-h-screen {
+    margin: 0 6px;
+    list-style: none;
+  }
+}
