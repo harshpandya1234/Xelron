@@ -5,7 +5,8 @@ import { Button } from '@/components/ui/button';
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+<div className="flex flex-col min-h-screen">
+
       {/* Hero Section */}
       <section className="py-16 lg:py-24">
         <div className="container-custom">
